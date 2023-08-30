@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    margin: 10px 10px 20px 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header a{
+    color: black;
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+header a:hover{
+    background-color: #ebfafc;
+    border-radius: 10px;
+}
+
+nav{
+    border-radius: 30px;
+    width: 90%;
+    height: 88px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #0CC0DF;
+}
+
+
+.cardsCelular{
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 243px;
+    height: 408px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.opcaoCores{
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcao{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.white{
+    background-color: white;
+}
+.gold{
+    background-color: gold;
+}
+
+.gray{
+    background-color: rgb(170, 170, 170);
+}
+
+.darkGray{
+    background-color: rgb(81, 81, 81);
+}
+
+
+.contentCard{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.nomeItemCard{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.memoriaItemCard{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.precoItemCard{
+    color: #298FA0;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.buttonComprarCard{
+    color: black;
+    background-color: #298FA0;
+    border-radius: 20px;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login TechPlus</title>
+</head>
+<body>
+    <div class="card-login">
+
+        <div class="img">
+            <img width="160" src="./tecnoplus.png" alt="Imagem de perfil">
+        </div>
+
+        <div>
+            <h1>Entrar</h1>
+        </div>
+
+        <form id="loginForm">
+            <div class="conteudoForm">
+                <img width="20" src="./Design sem nome (10).png" alt="Símbolo de e-mail">
+                <input id="loginEmail" type="email" placeholder="Digite aqui seu e-mail" required>
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="conteudoForm">
+                <img width="20" src="./Design sem nome (13).png" alt="Símbolo de cadeado">
+                <input id="loginSenha" type="password" placeholder="Digite aqui sua senha" required>
+            </div>  
+
+            <div class="linha"></div>
+
+            <div class="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
+        <div class="cadastrar">
+            <a onclick="window.location='cadastro.html'" href="#cadastrar">Não tem uma conta? Cadastre-se</a>
+        </div>
+        
+    </div>
+
+    <script src="login.js" type="module"></script>
+</body>
+</html>

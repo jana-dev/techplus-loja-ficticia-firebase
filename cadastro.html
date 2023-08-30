@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro TechPlus</title>
+</head>
+<body>
+    <div class="card-login">
+
+        <div class="img">
+            <img width="160" src="./tecnoplus.png" alt="Imagem de perfil">
+        </div>
+
+        <div>
+            <h1>Cadastrar</h1>
+        </div>
+
+        <form id="cadastroForm">
+
+            <div class="conteudoForm">
+                <img width="20" src="./Design sem nome (8).png" alt="Símbolo de e-mail">
+                <input type="text" id="cpf" placeholder="Digite aqui seu CPF" required>
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="conteudoForm">
+                <img width="20" src="./Design sem nome (10).png" alt="Símbolo de e-mail">
+                <input type="email" id="email" placeholder="Digite aqui seu e-mail" required>
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="conteudoForm">
+                <img width="20" src="./Design sem nome (13).png" alt="Símbolo de cadeado">
+                <input type="password" id="senha" placeholder="Digite aqui sua senha" required>
+            </div>  
+
+            <div class="linha"></div>
+
+            <div class="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
+        <div class="cadastrar">
+            <a onclick="telaLogin()">Já tem cadastro? <span>Login</span></a>
+        </div>
+        
+    </div>
+
+    <script src="cadastro.js"></script>
+    <script src="firebase.js" type="module"></script>
+</body>
+</html>
